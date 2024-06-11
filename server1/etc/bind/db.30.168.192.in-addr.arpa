@@ -1,0 +1,14 @@
+$TTL   60000
+@               IN      SOA     dns1.lab.    root.dns1.lab. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                       IN      NS      dns2.lab.
+53               IN     PTR      dns2.lab
+
+
+80     IN      PTR     serverweb2.lab
+

@@ -1,0 +1,5 @@
+ip address add 10.10.20.2/30 dev eth0
+ip address add 10.100.10.1/30 dev eth2
+ip address add 10.10.30.2/30 dev eth1
+
+/etc/init.d/quagga start

@@ -1,0 +1,4 @@
+ip address add 192.168.20.53/24 dev eth0 // adaugare ip intefete
+ip route add default via 192.168.20.1 // definire gateway
+
+systemctl start named // comanda care porneste HTTP-ul
